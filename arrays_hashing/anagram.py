@@ -3,6 +3,10 @@
 ## TC: O(n + m)
 ## SC: O(1)
 
+s = "anagram"
+t = "nagaram"
+s = "rat"
+t = "car"
 
 def is_anagram(str1: str, str2: str) -> bool:
     
@@ -28,6 +32,8 @@ def is_anagram(str1: str, str2: str) -> bool:
     
     return True
 
+print(is_anagram(s,t))
+
 # Bruteforce approach: Using sort
 ## TC: O(nlogn)
 def is_anagram(str1: str, str2: str) -> bool:
@@ -39,8 +45,10 @@ def is_anagram(str1: str, str2: str) -> bool:
         str2 = str2.replace(" ", "")
         
         str1 = sorted(str1)
-        str2 = sorted(str1)
+        str2 = sorted(str2)
         
         if str1 == str2:
             return True
         return False
+
+print(is_anagram(s,t))
