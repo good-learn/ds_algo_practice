@@ -8,6 +8,31 @@ Input: nums = [1,12,-5,-6,50,3], k = 4
 Output: 12.75000
 Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75"""
 
+## SLiding window (for-loop)
+# TC: O(n)
+# SC: O(1)
+
+def max_avg_subarray(nums:list[int], k:int)->float:
+    
+    sum, max_sum = 0, 0
+    for i in range(k):
+        sum+=nums[i]
+        
+    max_sum = sum
+    
+    for j in range(k, len(nums)):
+        sum -= nums[j-k]
+        sum += nums[j]
+        
+        max_sum = max(sum, max_sum)
+    
+    return max_sum / k
+    
+    
+nums = [1, 12, -5, -6, 50, 3]
+print(max_avg_subarray(nums, k=4))
+    
+    
 ## SLiding window (two pointer)
 # TC: O(n)
 # SC: O(1)
