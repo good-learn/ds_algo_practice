@@ -1,3 +1,8 @@
+
+
+## Approach sliding window using two pointer (for expansion and shrinking)
+# TC:O(n)
+# SC:O(n)
 def longest_sbstring(s: str) -> int:
     max_len = l = 0
     charSet = set()
