@@ -14,8 +14,9 @@ Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from
 
 
 
-## Approach: sliding window, hashmaps
-# TC: O(n)
+## Approach: sliding window, two pointers, hashmaps
+# TC: O(s+t)
+# SC: O(s+t)
 def min_win_sbstring(s:str, t:str)->str:
     if t=="": return ""
     
