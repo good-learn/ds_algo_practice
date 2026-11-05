@@ -3,8 +3,8 @@
 | Category / Topic | Solved | Key Patterns Learned | Use Cases | Status |
 | :--- | :---: | :--- | :--- | :---: |
 | [Arrays & Hashing](arrays/) | 2 / 50 | Hash Maps, Prefix Sum | Fast lookups, frequency counting, caching | 🟢 Started |
-| [Two Pointers](two_pointers/) | 0 / 20 | Left/Right pointers | Palindrome checks, sorted array searching | 🔴 Not Started |
-| [Sliding Window](sliding_window/) | 2 / 15 | Fixed & Dynamic window | Subarray/substring constraints, network packet analysis | 🔴 Not Started |
+| [Two Pointers](two_pointers/) | 3 / 20 | Left/Right pointers | Palindrome checks, sorted array searching | 🔴 Not Started |
+| [Sliding Window](sliding_window/) | 4 / 15 | Fixed & Dynamic window | Subarray/substring constraints, network packet analysis | 🔴 Not Started |
 | [Binary Search](binary_search/) | 0 / 15 | Search Space Reduction, Rotated Arrays | Searching sorted datasets, database indexing | 🔴 Not Started |
 | [Stacks & Queues](stacks_queues/) | 0 / 25 | Monotonic Stack, LIFO/FIFO | Expression evaluation, undo/redo history, task queues | 🔴 Not Started |
 | [Linked Lists](linked_lists/) | 0 / 15 | Fast & Slow pointers, Reversal | Dynamic memory allocation, LRU caches | 🔴 Not Started |
