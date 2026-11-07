@@ -34,8 +34,6 @@ print(intersection(nums1, nums2))
 
 # Using hashset
 # TC: n:len(nums1), m:len(nums2), if n<m then O(n), else O(m)
-# SC: O(n intersection m)
-
 def intersection(nums1: list[int], nums2: list[int]) -> list[int]:
     
     nums = set()
